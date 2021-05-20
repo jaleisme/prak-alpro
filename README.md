@@ -2,61 +2,81 @@
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+<h1>Contributors :</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Team | Member |
+------ | ------ |
+Team C-1 | M. Syahrul Anwar Aria, Adi Pratama Putra, Muhammad Najib Budi
+Team C-2 | Agus Tri Adiana, Ine Enjelianto, Arif Muhammad Iqbal
+Team C-3 | Muhammad Zahidy Syawal, Aditya Muhammad Maulana, Ayuni Tia Sari
+Team C-4 | Aini Nur Fadhilah, Aldi Fahluzi Muharam, Wirajati Pujo Raharjo
+Team C-5 | Muhammad Alwy Sholehudin, Indri Nurfiani, Ammar Taradifa
+Team C-6 | Anne Rayana Jasmin, Hilman Suhendar, Aditya Pratama Taufik Nurjaman
+Team C-7 | Indah Sri Lestari, Jalalul Mu'ti, Muhammad Afian Anwar
+Team D-1 | Muhammad Fadli Naufal Ramdani, Eka Jacinda Rahmawati, Faza Mohamad Farsyafat, Haikal Azhar
+Team D-2 | Naufal Adifa Ramdani, Nada Luthfiyah, Moch. Apip Tanuwijaya
+Team D-3 | Chandra Gunawan, Frinaldi Muhammad Syauqi, Muhammad Aqsal Sirulah Sodik
+Team D-4 | Dwi Bagia Santosa, Nafa Khairunnisa, Putri Fuji Lestari
+Team D-5 | Dani Ali Kinan, Dilla Nur Fadhilla, Muhammad Rahmat Muhaimin
+Team D-6 | Muhammad Ardiansyah, Muhammad Widianto, Nabila Nur Athiyah, Gaduh Hartawan
+Team D-7 | Faizal Ramadhan
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<br/>
+<br/>
+<br/>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h1>Setting up working environment :</h1>
 
-## Learning Laravel
+<h2>Account setup :</h2>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+If you want to read the full documentation, [click here!](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* Open your selected directory for this project, right-clck your mouse and choose `git bash here`
+* Inside the **git bash**, type the following code to setup your git username :
+  * `git config --global user.name "Your git username" `
+* After that, let's setup your git email by typing the following code to your **git bash** :
+  * `git config --global user.email yourgithubemail@mail.com`
 
-## Laravel Sponsors
+Well, your account is ready to go!
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<br/>
 
-### Premium Partners
+<h2>Setup project :</h2>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+Before editing the code, make sure you move your local branch into your team branch to avoid unwanted events
 
-## Contributing
+* Open your selected directory for this project, right-clck your mouse and choose `git bash here`
+* Inside the **git bash**, type the following code to clone this repository :
+  * `git clone https://github.com/jaleisme/prak-alpro.git`
+* Once the **cloning** is finished, we have to enter the project directory. Type this code inside your **git bash** :
+  * `cd prak-alpro`
+* After that, we have to change our current branch into our team branch. Here's the code :
+  * `git checkout team-yourclass-yourteamnumber` for example, `git checkout team-d-7`
+* After that, we have to change our current branch into our team branch. Here's the code :
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+There you have it, we're ready to code!
 
-## Code of Conduct
+<br/>
+<br/>
+<br/>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<h1>Pushing your progress to your team branch :</h1>
 
-## Security Vulnerabilities
+After editing some code — for example changing logic, doing UI slicing, etc. — you have to push your progress to your team branch. Here's the way :
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+* Open your selected directory for this project, right-clck your mouse and choose `git bash here`
+* Inside the **git bash**, type the following code to stage the changes before you push it to the web :
+  * `git add .`
+* Once the **staging** is finished, we have to enter the summary of what we've changed. Type this code inside your **git bash** :
+  * `git commit -m "Your message here"` for example, `git commit -m "Changing logic for MyController"`
+* After that, we have to pull and update our local repository first. You can do it by typing :
+  * `git pull`
+* Lastly, after we've updated our local repository, we can push the staged changes. Type the following code :
+  * `git push -u origin team-yourclass-yourteamnumber` for example, `git push -u origin team-d-7`
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# prak-alpro
+There you go! Your changes have been saved to the GitHub repository.
