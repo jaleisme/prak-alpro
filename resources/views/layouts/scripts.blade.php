@@ -38,10 +38,3 @@
 <script src="{{ asset('template/js/material-dashboard.js') }}"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="{{ asset('template/js/demo.js') }}"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        demo.initDashboardPageCharts();
-
-        demo.initVectorMap();
-    });
-</script>
