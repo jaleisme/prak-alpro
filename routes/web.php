@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', 'MainController@index');
+Route::get('/team-d-7', 'MainController@classDteamSeven')->name('team-d-7');
