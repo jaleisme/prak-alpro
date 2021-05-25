@@ -57,7 +57,11 @@ Before editing the code, make sure you move your local branch into your team bra
   * `cd prak-alpro`
 * After that, we have to change our current branch into our team branch. Here's the code :
   * `git checkout team-yourclass-yourteamnumber` for example, `git checkout team-d-7`
-* After that, we have to change our current branch into our team branch. Here's the code :
+* Now, we have to install laravel's libraries and configuration with composer. Here's the code :
+  * `composer install`
+* If the packages has been installed, look for `.env.example` file and rename it to `.env` using your code editor
+* After renaming the file, head back to your **git bash** and generate your application key, here's the code :
+  * `php artisan key:generate`
 
 There you have it, we're ready to code!
 
